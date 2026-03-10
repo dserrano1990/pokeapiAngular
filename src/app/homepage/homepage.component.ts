@@ -62,7 +62,10 @@ export class HomepageComponent implements OnInit {
         this.poke_list.imgUrl = this.img_url+id_format+".png";
       }
       console.log(this.poke_list);
-      this.loading = false;
+      // Espera 1.5 segundos antes de ocultar el gif
+      setTimeout(() => {
+        this.loading = false;
+      }, 1500);
     });
   }
 

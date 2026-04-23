@@ -1,3 +1,5 @@
+## Nota
+- versión moderna con angular 17 en https://github.com/dserrano1990/poke-dex-app
 # PokeApi
 
 Aplicación Angular que consume la API pública de Pokémon.
